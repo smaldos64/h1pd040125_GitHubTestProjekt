@@ -84,7 +84,7 @@ namespace GitHub_Projekt1
         public void Divide_ShouldThrowException_WhenDivisorIsZero()
         {
             // Arrange
-            int a = 20;
+            int a = 30;
             int b = 0;
 
             // Act & Assert
