@@ -15,6 +15,21 @@ namespace GitHub_Projekt1
 
             // Act
             int result = MathOperations.Add(a, b);
+          
+            // Assert
+            Assert.Equal(expected, result);
+        }
+
+        [Fact]
+        public void Add_ShouldReturnCorrectSum1()
+        {
+            // Arrange
+            int a = 50;
+            int b = 30;
+            int expected = 80;
+
+            // Act
+            int result = MathOperations.Add(a, b);
 
             // Assert
             Assert.Equal(expected, result);
